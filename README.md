@@ -58,12 +58,13 @@ The dataset consists of 36 columns, where the first column is a unique responden
 - `test_set_features.csv`: Test set features.
 - `submission_format.csv`: Sample submission file format.
 
-## Usage
+# Evaluation Metrics
+The primary metric for evaluating the models is the ROC AUC score. Additional metrics such as precision, recall, and F1-score are also considered.
 
-### 1. Install dependencies
+# Insights and Interpretability
+The project provides insights into the significant factors influencing vaccination probabilities using techniques like feature importance and SHAP values.
 
-First, ensure you have Python installed. Then, install the required packages using:
+# Contributing
+Contributions are welcome. Please submit a pull request or open an issue to discuss changes.
 
-```bash
-pip install -r requirements.txt
 
